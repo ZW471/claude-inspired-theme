@@ -1,0 +1,50 @@
+{
+  "name": "claude-inspired-theme",
+  "displayName": "Claude Inspired Theme",
+  "description": "A warm, elegant VS Code theme inspired by Claude AI's signature cream and terracotta color palette. Includes both light and dark variants.",
+  "version": "1.0.0",
+  "publisher": "dricpro",
+  "author": {
+    "name": "dricpro"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dricpro/claude-inspired-theme"
+  },
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "claude",
+    "theme",
+    "warm",
+    "cream",
+    "terracotta",
+    "light",
+    "dark",
+    "anthropic"
+  ],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#FAF9F5",
+    "theme": "light"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Claude Light",
+        "uiTheme": "vs",
+        "path": "./themes/claude-light.json"
+      },
+      {
+        "label": "Claude Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/claude-dark.json"
+      }
+    ]
+  }
+}

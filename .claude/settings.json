@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:www.shadcn.io)",
+      "WebFetch(domain:mobbin.com)",
+      "WebFetch(domain:marketplace.visualstudio.com)",
+      "WebFetch(domain:www.assistant-ui.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:beginswithai.com)",
+      "WebFetch(domain:medium.com)",
+      "Bash(python3 -c \"from PIL import Image; print\\(''pillow available''\\)\")",
+      "Bash(python3 -c \"import cairosvg; print\\(''cairosvg available''\\)\")",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
